@@ -19,7 +19,7 @@ public class BookData {
 /*
 도서관리 앱에서 ListView로 화면에 표시하기 위해 ArrayList<BookData>에 책들의
 정보를 넣어 인텐트로 넘겨주려고 하면 BookData 클래스를 그대로 사용할수는 없다.
-
+co
 오브젝트를 Parcelable 클래스로 만들어 주려면 android.os.Parcelable 인터페이스를
 구현해야 한다. 그러므로 아래와 같이 클래스 정의를 변경한다.
 */
