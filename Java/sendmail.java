@@ -1,6 +1,8 @@
 import javax.mail.*;
 import javax.mail.internet.*;
 import java.util.*;
+
+
 public void postMail( String recipients[ ], String subject, String message , String from) throws MessagingException {
     boolean debug = false;
     Properties props = new Properties();
