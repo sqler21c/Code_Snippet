@@ -25,4 +25,3 @@ private void createThumbnail(String filename, int thumbWidth, int thumbHeight, i
     encoder.setJPEGEncodeParam(param);
     encoder.encode(thumbImage);
     out.close();
-}

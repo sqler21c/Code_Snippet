@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<productList>
+  <product name="Notebook">
+    <vendor name="Samsung">
+      <model id="S501" price="400">NewTab</model>
+      <model id="S502" price="450">EverGreen</model>
+    </vendor>
+    <vendor name="LG">
+      <model id="D401" price="380">WinTab</model>
+      <model id="D402" price="420">Feather</model>
+    </vendor>
+  </product>
+</productList>

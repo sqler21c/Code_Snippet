@@ -16,6 +16,8 @@ public class BookData {
   int price;
 }
 
+dfdfas
+
 /*
 도서관리 앱에서 ListView로 화면에 표시하기 위해 ArrayList<BookData>에 책들의
 정보를 넣어 인텐트로 넘겨주려고 하면 BookData 클래스를 그대로 사용할수는 없다.

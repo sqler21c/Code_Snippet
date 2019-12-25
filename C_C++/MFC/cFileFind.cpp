@@ -13,7 +13,6 @@ char* P_FileList = new char[100];
         strTemp=strSeletedItem;
     }
 
-
     while(IsFile)
     {
         IsFile=cfileFind.FindNextFileA();

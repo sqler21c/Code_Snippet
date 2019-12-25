@@ -1,0 +1,115 @@
+str	CStdioFile.cpp	/^    CString display_str, str;$/;"	v
+GetFileList	cFileFind.cpp	/^void GetFileList(CString strFolder)$/;"	f
+IsFile	cFileFind.cpp	/^BOOL IsFile;$/;"	v
+P_FileList	cFileFind.cpp	/^char* P_FileList = new char[100];$/;"	v
+SearchDirectory	cFileFind.cpp	/^char 클래스명::SearchDirectory(const char *parm_search_path)$/;"	f
+cfileFind	cFileFind.cpp	/^CFileFind cfileFind;$/;"	v
+strTempPath	cFileFind.cpp	/^CString strTempPath;$/;"	v
+ANSIToUTF8	converttoansi.cpp	/^char* ANSIToUTF8(const char * pszCode)$/;"	f
+UTF8ToANSI	converttoutf8.cpp	/^char* UTF8ToANSI(const char *pszCode)$/;"	f
+AddSheet	excellib\ExcelLib.cpp	/^BOOL CExcelLib::AddSheet(TCHAR *pwsSheetName)$/;"	f	class:CExcelLib
+AutoWrap	excellib\ExcelLib.cpp	/^HRESULT CExcelLib::AutoWrap(int nAutoType, VARIANT *pvResult, IDispatch *pDisp, DISPID dwDispID, int cArgs...)$/;"	f	class:CExcelLib
+AutoWrap	excellib\ExcelLib.cpp	/^HRESULT CExcelLib::AutoWrap(int nAutoType, VARIANT *pvResult, IDispatch *pDisp, LPOLESTR ptName, int cArgs...)$/;"	f	class:CExcelLib
+CExcelLib	excellib\ExcelLib.cpp	/^CExcelLib::CExcelLib(void)$/;"	f	class:CExcelLib
+ChangeSheetName	excellib\ExcelLib.cpp	/^BOOL CExcelLib::ChangeSheetName(DWORD dwSheetNumber, TCHAR *pwsSheetName)$/;"	f	class:CExcelLib
+CloseExcelFile	excellib\ExcelLib.cpp	/^BOOL CExcelLib::CloseExcelFile(void)$/;"	f	class:CExcelLib
+ConverRangeString	excellib\ExcelLib.cpp	/^BOOL CExcelLib::ConverRangeString(char *pbVal, DWORD &pdwBX, DWORD &pdwBY, DWORD &pdwLX, DWORD &pdwLY)$/;"	f	class:CExcelLib
+ConvertAlphabet2Number	excellib\ExcelLib.cpp	/^BOOL CExcelLib::ConvertAlphabet2Number(char *pbVal, DWORD &pdwNumber)$/;"	f	class:CExcelLib
+CreateExcel	excellib\ExcelLib.cpp	/^BOOL CExcelLib::CreateExcel(void)$/;"	f	class:CExcelLib
+GetActiveRange	excellib\ExcelLib.cpp	/^BOOL CExcelLib::GetActiveRange(DWORD &pdwBX, DWORD &pdwBY, DWORD &pdwLX, DWORD &pdwLY)$/;"	f	class:CExcelLib
+GetData	excellib\ExcelLib.cpp	/^BOOL CExcelLib::GetData(DWORD dwX, DWORD dwY, TCHAR *pwsOut, DWORD dwBufferSize)$/;"	f	class:CExcelLib
+GetData	excellib\ExcelLib.cpp	/^BOOL CExcelLib::GetData(INT nSheetNum, DWORD dwX, DWORD dwY, TCHAR *pwsOut, DWORD dwBufferSize)$/;"	f	class:CExcelLib
+GetNextData	excellib\ExcelLib.cpp	/^BOOL CExcelLib::GetNextData(INT fDirection, TCHAR *pwsOut, DWORD dwBufferSize)$/;"	f	class:CExcelLib
+GetSheetCount	excellib\ExcelLib.cpp	/^DWORD CExcelLib::GetSheetCount(void)$/;"	f	class:CExcelLib
+GetSheetName	excellib\ExcelLib.cpp	/^BOOL CExcelLib::GetSheetName(DWORD dwSheetNumber, TCHAR *pwsSheetName)$/;"	f	class:CExcelLib
+InitExcelLib	excellib\ExcelLib.cpp	/^BOOL CExcelLib::InitExcelLib(void)$/;"	f	class:CExcelLib
+OpenExcelFile	excellib\ExcelLib.cpp	/^BOOL CExcelLib::OpenExcelFile(TCHAR *pwsFileName)$/;"	f	class:CExcelLib
+SaveAs	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SaveAs(TCHAR *pwsFileName)$/;"	f	class:CExcelLib
+SaveExcelFile	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SaveExcelFile(void)$/;"	f	class:CExcelLib
+SearchAll	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SearchAll(TCHAR *pwsSeed, TCHAR *pwsResult, DWORD &pdwX, DWORD &pdwY)$/;"	f	class:CExcelLib
+SearchNext	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SearchNext(TCHAR *pwsResult, DWORD &pdwX, DWORD &pdwY)$/;"	f	class:CExcelLib
+SearchX	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SearchX(DWORD dwX, TCHAR *pwsSeed, TCHAR *pwsResult, DWORD &pdwX, DWORD &pdwY)$/;"	f	class:CExcelLib
+SearchY	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SearchY(DWORD dwY, TCHAR *pwsSeed, TCHAR *pwsResult, DWORD &pdwX, DWORD &pdwY)$/;"	f	class:CExcelLib
+SetActiveSheet	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SetActiveSheet(INT nSheetNum)$/;"	f	class:CExcelLib
+SetData	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SetData(DWORD dwX, DWORD dwY, TCHAR *pwsInput)$/;"	f	class:CExcelLib
+SetData	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SetData(INT nSheetNum, DWORD dwX, DWORD dwY, TCHAR *pwsOut)$/;"	f	class:CExcelLib
+SetNextData	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SetNextData(INT fDirection, TCHAR *pwsInput)$/;"	f	class:CExcelLib
+SetVisible	excellib\ExcelLib.cpp	/^BOOL CExcelLib::SetVisible(BOOL fOn)$/;"	f	class:CExcelLib
+XYToColumn	excellib\ExcelLib.cpp	/^BOOL CExcelLib::XYToColumn(DWORD dwX, DWORD dwY, TCHAR *pwsPosition)$/;"	f	class:CExcelLib
+~CExcelLib	excellib\ExcelLib.cpp	/^CExcelLib::~CExcelLib(void)$/;"	f	class:CExcelLib
+BOTTOM	excellib\ExcelLib.h	/^	BOTTOM,$/;"	e	enum:DIRECTION
+CExcelLib	excellib\ExcelLib.h	/^class CExcelLib$/;"	c
+CREATE_EXCEL_FILE	excellib\ExcelLib.h	/^	CREATE_EXCEL_FILE,$/;"	e	enum:OPEN_EXCEK_FILE_MODE
+CheckInit	excellib\ExcelLib.h	/^	BOOL	CheckInit(void){return m_fInit;};$/;"	f	class:CExcelLib
+DIRECTION	excellib\ExcelLib.h	/^enum DIRECTION$/;"	g
+ExcelPosition	excellib\ExcelLib.h	/^	}ExcelPosition;$/;"	t	class:CExcelLib	typeref:struct:CExcelLib::_ExcelPosition
+LEFT	excellib\ExcelLib.h	/^	LEFT,$/;"	e	enum:DIRECTION
+MAX_STRING_BUFFER_SIZE	excellib\ExcelLib.h	23;"	d
+OPEN_EXCEK_FILE_MODE	excellib\ExcelLib.h	/^enum OPEN_EXCEK_FILE_MODE$/;"	g
+OPEN_EXCEL_FILE	excellib\ExcelLib.h	/^	OPEN_EXCEL_FILE$/;"	e	enum:OPEN_EXCEK_FILE_MODE
+POSITION_BUFFER_SIZE	excellib\ExcelLib.h	17;"	d
+PROPERTIES	excellib\ExcelLib.h	/^	struct PROPERTIES$/;"	s	class:CExcelLib
+RIGHT	excellib\ExcelLib.h	/^	RIGHT$/;"	e	enum:DIRECTION
+SEARCH_ALL	excellib\ExcelLib.h	19;"	d
+SEARCH_X	excellib\ExcelLib.h	20;"	d
+SEARCH_Y	excellib\ExcelLib.h	21;"	d
+UPPER	excellib\ExcelLib.h	/^	UPPER,$/;"	e	enum:DIRECTION
+_ExcelPosition	excellib\ExcelLib.h	/^	typedef struct _ExcelPosition$/;"	s	class:CExcelLib
+dwX	excellib\ExcelLib.h	/^		DWORD	dwX;$/;"	m	struct:CExcelLib::_ExcelPosition
+dwY	excellib\ExcelLib.h	/^		DWORD	dwY;$/;"	m	struct:CExcelLib::_ExcelPosition
+m_fCOMInited	excellib\ExcelLib.h	/^	BOOL			m_fCOMInited;			\/\/ COM�� �ʱ�ȭ ����$/;"	m	class:CExcelLib
+m_fInit	excellib\ExcelLib.h	/^	BOOL			m_fInit;				\/\/ �ν��Ͻ��� �ʱ�ȭ ����$/;"	m	class:CExcelLib
+m_fSearchMethod	excellib\ExcelLib.h	/^	INT				m_fSearchMethod;		\/\/ ���������� �˻��� ����� ���$/;"	m	class:CExcelLib
+m_nActiveSheet	excellib\ExcelLib.h	/^	INT				m_nActiveSheet;			\/\/ ���� Active�� Sheet ��ȣ	$/;"	m	class:CExcelLib
+m_stLastPosition	excellib\ExcelLib.h	/^	ExcelPosition	m_stLastPosition;		\/\/ ���������� ����� Excel ��ġ$/;"	m	class:CExcelLib
+m_stLastSearch	excellib\ExcelLib.h	/^	ExcelPosition	m_stLastSearch;			\/\/ ���������� �˻��� Excel ��ġ$/;"	m	class:CExcelLib
+m_stProperties	excellib\ExcelLib.h	/^	}m_stProperties;$/;"	m	class:CExcelLib	typeref:struct:CExcelLib::PROPERTIES
+m_wsExcelFileName	excellib\ExcelLib.h	/^	TCHAR	m_wsExcelFileName[255];$/;"	m	class:CExcelLib
+m_wsSeed	excellib\ExcelLib.h	/^	TCHAR			m_wsSeed[MAX_STRING_BUFFER_SIZE]; \/\/ ���������� �˻��� ����� Seed$/;"	m	class:CExcelLib
+pXlApp	excellib\ExcelLib.h	/^		IDispatch *pXlApp;$/;"	m	struct:CExcelLib::PROPERTIES
+pXlBook	excellib\ExcelLib.h	/^		IDispatch *pXlBook;$/;"	m	struct:CExcelLib::PROPERTIES
+pXlBooks	excellib\ExcelLib.h	/^		IDispatch *pXlBooks;$/;"	m	struct:CExcelLib::PROPERTIES
+pXlSheet	excellib\ExcelLib.h	/^		IDispatch *pXlSheet;$/;"	m	struct:CExcelLib::PROPERTIES
+pXlSheets	excellib\ExcelLib.h	/^		IDispatch *pXlSheets;$/;"	m	struct:CExcelLib::PROPERTIES
+GetProgPath	excution_file_path.cpp	/^CString GetProgPath()$/;"	f
+main	excution_file_path.cpp	/^int main()$/;"	f
+main	excution_file_path.cpp	/^void main( void )$/;"	f
+MyBrowseCallbackProc	folder selection.cpp	/^int CALLBACK MyBrowseCallbackProc(HWND hwnd, UINT uMsg, LPARAM lParam, LPARAM lpData)$/;"	f
+bi	folder selection.cpp	/^BROWSEINFO bi;$/;"	v
+byte	folder selection.cpp	/^   또한, unicode 를 사용할 경우, 기존에 경로를 저장한 파일을 불러 와서 [pFolderName]에 설정하는 부분에서 약간의 작업을 더 해 주어야 한다. 즉, 기존 경로를 저장했던 text file 의 size 는 byte 수인데, unicode 의 경우 한 글자가 2 byte 라서$/;"	v
+cpp	folder selection.cpp	/^위와 같은 callback function을 cpp 파일의 위쪽에 정의해 주고,$/;"	v
+hFile	folder selection.cpp	/^CloseHandle(hFile); delete pFolderName;$/;"	v
+hFile	folder selection.cpp	/^HANDLE hFile = CreateFile("path.txt",GENERIC_READ | GENERIC_WRITE, 0, NULL,OPEN_ALWAYS,FILE_ATTRIBUTE_NORMAL,NULL);$/;"	v
+len	folder selection.cpp	/^DWORD len = 0;$/;"	v
+pFolderName	folder selection.cpp	/^    pFolderName[size>>1] = NULL;$/;"	v
+pFolderName	folder selection.cpp	/^TCHAR *pFolderName = NULL;$/;"	v
+pidl	folder selection.cpp	/^LPITEMIDLIST pidl = SHBrowseForFolder(&bi);$/;"	v
+size	folder selection.cpp	/^int size = GetFileSize(hFile,NULL);$/;"	v
+szPath	folder selection.cpp	/^TCHAR szPath[MAX_PATH] = {0};$/;"	v
+iSub	full file path_select only file name.cpp	/^int iSub = 0;$/;"	v
+nTotalLen	full file path_select only file name.cpp	/^int nTotalLen = strlen(strTotal);$/;"	v
+name	full file path_select only file name.cpp	/^  CString name = str.Right( str.GetLength() - str.ReverseFind('\\\\')-1);$/;"	v
+name	full file path_select only file name.cpp	/^char* name = strrchr(str, '\\\\') + 1;$/;"	v
+str	full file path_select only file name.cpp	/^  CString str = "C:\\\\test\\\\file.exe";$/;"	v
+str	full file path_select only file name.cpp	/^CString strTok, str = _T("hi;abc;def");$/;"	v
+strName	full file path_select only file name.cpp	/^char* strName; \/\/파일명을 담을 변수$/;"	v
+strTok	full file path_select only file name.cpp	/^CString strTok, str = _T("hi;abc;def");$/;"	v
+IP	ini_read_write.cpp	/^IP=127.0.0.1$/;"	v
+strKey	ini_read_write.cpp	/^CString strSection, strKey, strValue;$/;"	v
+strSection	ini_read_write.cpp	/^CString strSection, strKey, strValue;$/;"	v
+strValue	ini_read_write.cpp	/^CString strSection, strKey, strValue;$/;"	v
+szBuf	ini_read_write.cpp	/^TCHAR szBuf[MAX_PATH]={0,};$/;"	v
+m_font	mfc_font_size.cpp	/^GetDlgItem(IDC_EDIT1)->SetFont(&m_font);$/;"	v
+m_font	mfc_font_size.cpp	/^또는 GetDlgItem(IDC_EDIT1)->SetFont(&m_font);$/;"	v
+SetDemonExec	mfc_shell_ececute.cpp	/^BOOL SetDemonExec(TCHAR *sParam)$/;"	f
+str	mfc_stringToken.cpp	/^CString str = "118.131.90.22"; \/\/파싱할 문자열$/;"	v
+strA	mfc_stringToken.cpp	/^CString strA, strB, strC, strD; \/\/파싱되는 문자열을 담을 변수선언$/;"	v
+strB	mfc_stringToken.cpp	/^CString strA, strB, strC, strD; \/\/파싱되는 문자열을 담을 변수선언$/;"	v
+strC	mfc_stringToken.cpp	/^CString strA, strB, strC, strD; \/\/파싱되는 문자열을 담을 변수선언$/;"	v
+strD	mfc_stringToken.cpp	/^CString strA, strB, strC, strD; \/\/파싱되는 문자열을 담을 변수선언$/;"	v
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

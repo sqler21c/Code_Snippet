@@ -11,7 +11,7 @@ CFont m_font;
  CDialog::OnInitDialog();
 
    m_font.CreateFont( 100, // nHeight
-                               80, // nWidth
+                      80, // nWidth
                                0, // nEscapement
                                0, // nOrientation
                                1, // nWeight
